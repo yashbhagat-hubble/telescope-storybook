@@ -1,0 +1,207 @@
+/* Theme */
+:root,
+.telescope-light-theme {
+  /* Light */
+  /* color */
+
+  /* Static Colors */
+  --static-white: var(--color-neutral-00);
+  --static-black: var(--color-neutral-950);
+
+  /* Background Colors */
+  --background-normal-primary: var(--color-neutral-00);
+  --background-normal-secondary: var(--color-neutral-50);
+  --background-normal-tertiary: var(--color-neutral-100);
+  --background-inverted-primary: var(--color-neutral-950);
+  --background-inverted-secondary: var(--color-neutral-900);
+  --background-inverted-tertiary: var(--color-neutral-800);
+  --background-mapping-elevation-1: var(--color-neutral-00);
+  --background-mapping-elevation-2: var(--color-neutral-00);
+  --background-mapping-reverse: var(--color-neutral-50);
+
+  /* Text Colors */
+  --text-normal-primary: var(--color-neutral-950);
+  --text-normal-secondary: var(--color-neutral-600);
+  --text-normal-tertiary: var(--color-neutral-400);
+  --text-inverted-primary: var(--color-neutral-00);
+  --text-inverted-secondary: var(--color-neutral-400);
+  --text-inverted-tertiary: var(--color-neutral-500);
+
+  /* Stroke Colors */
+  --stroke-solid: var(--color-neutral-900);
+  --stroke-1: var(--color-neutral-100);
+  --stroke-2: var(--color-neutral-200);
+  --stroke-3: var(--color-neutral-300);
+  --stroke-solid-inverted: var(--color-neutral-100);
+  --stroke-1-alpha: var(--color-alpha-neutral-16);
+  --stroke-2-alpha: var(--color-alpha-neutral-24);
+  --stroke-3-alpha: var(--color-alpha-black-16);
+
+  /* Semantic Colors */
+  --faded-dark: var(--color-neutral-800);
+  --faded-base: var(--color-neutral-500);
+  --faded-light: var(--color-neutral-100);
+  --faded-lighter: var(--color-neutral-50);
+
+  /* Warning Colors */
+  --warning-dark: var(--color-orange-950);
+  --warning-base: var(--color-orange-500);
+  --warning-light: var(--color-orange-200);
+  --warning-lighter: var(--color-orange-50);
+
+  /* Info Colors */
+  --info-dark: var(--color-blue-950);
+  --info-base: var(--color-blue-500);
+  --info-light: var(--color-blue-200);
+  --info-lighter: var(--color-blue-50);
+
+  /* Error Colors */
+  --error-dark: var(--color-red-950);
+  --error-base: var(--color-red-500);
+  --error-light: var(--color-red-200);
+  --error-lighter: var(--color-red-50);
+
+  /* Success Colors */
+  --success-dark: var(--color-green-950);
+  --success-base: var(--color-green-700);
+  --success-light: var(--color-green-200);
+  --success-lighter: var(--color-green-50);
+
+  /* Away Colors */
+  --away-dark: var(--color-yellow-950);
+  --away-base: var(--color-yellow-500);
+  --away-light: var(--color-yellow-200);
+  --away-lighter: var(--color-yellow-50);
+
+  /* Brand/Feature Colors */
+  --brand-tbd-dark: var(--color-purple-950);
+  --brand-tbd-base: var(--color-purple-500);
+  --brand-button-primary-text: var(--color-neutral-00);
+  --brand-tbd-light: var(--color-purple-200);
+  --brand-tbd-lighter: var(--color-purple-50);
+  --feature-dark: var(--color-purple-950);
+  --feature-base: var(--color-purple-500);
+  --feature-light: var(--color-purple-200);
+  --feature-lighter: var(--color-purple-50);
+
+  /* Verified Colors */
+  --verified-dark: var(--color-sky-950);
+  --verified-base: var(--color-sky-500);
+  --verified-light: var(--color-sky-200);
+  --verified-lighter: var(--color-sky-50);
+
+  /* Highlighted Colors */
+  --highlighted-dark: var(--color-pink-950);
+  --highlighted-base: var(--color-pink-500);
+  --highlighted-light: var(--color-pink-200);
+  --highlighted-lighter: var(--color-pink-50);
+
+  /* Stable Colors */
+  --stable-dark: var(--color-teal-950);
+  --stable-base: var(--color-teal-500);
+  --stable-light: var(--color-teal-200);
+  --stable-lighter: var(--color-teal-50);
+}
+
+.telescope-dark-theme {
+  /* Dark */
+  /* color */
+
+  /* Static Colors */
+  --static-white: var(--color-neutral-00);
+  --static-black: var(--color-neutral-950);
+
+  /* Background Colors */
+  --background-normal-primary: var(--color-neutral-950);
+  --background-normal-secondary: var(--color-neutral-900);
+  --background-normal-tertiary: var(--color-neutral-800);
+  --background-inverted-primary: var(--color-neutral-00);
+  --background-inverted-secondary: var(--color-neutral-50);
+  --background-inverted-tertiary: var(--color-neutral-200);
+  --background-mapping-elevation-1: var(--color-neutral-900);
+  --background-mapping-elevation-2: var(--color-neutral-800);
+  --background-mapping-reverse: var(--color-neutral-1000);
+
+  /* Text Colors */
+  --text-normal-primary: var(--color-neutral-100);
+  --text-normal-secondary: var(--color-neutral-400);
+  --text-normal-tertiary: var(--color-neutral-500);
+  --text-inverted-primary: var(--color-neutral-950);
+  --text-inverted-secondary: var(--color-neutral-600);
+  --text-inverted-tertiary: var(--color-neutral-400);
+
+  /* Stroke Colors */
+  --stroke-solid: var(--color-neutral-100);
+  --stroke-1: var(--color-neutral-800);
+  --stroke-2: var(--color-neutral-700);
+  --stroke-3: var(--color-neutral-600);
+  --stroke-solid-inverted: var(--color-neutral-800);
+  --stroke-1-alpha: var(--color-alpha-neutral-16);
+  --stroke-2-alpha: var(--color-alpha-neutral-24);
+  --stroke-3-alpha: var(--color-alpha-white-24);
+
+  /* Semantic Colors */
+  --faded-dark: var(--color-neutral-300);
+  --faded-base: var(--color-neutral-500);
+  --faded-light: var(--color-alpha-neutral-24);
+  --faded-lighter: var(--color-alpha-neutral-16);
+
+  /* Warning Colors */
+  --warning-dark: var(--color-orange-400);
+  --warning-base: var(--color-orange-600);
+  --warning-light: var(--color-alpha-orange-24);
+  --warning-lighter: var(--color-alpha-orange-16);
+
+  /* Info Colors */
+  --info-dark: var(--color-blue-400);
+  --info-base: var(--color-blue-500);
+  --info-light: var(--color-alpha-blue-24);
+  --info-lighter: var(--color-alpha-blue-16);
+
+  /* Error Colors */
+  --error-dark: var(--color-red-400);
+  --error-base: var(--color-red-600);
+  --error-light: var(--color-alpha-red-24);
+  --error-lighter: var(--color-alpha-red-16);
+
+  /* Success Colors */
+  --success-dark: var(--color-green-400);
+  --success-base: var(--color-green-600);
+  --success-light: var(--color-alpha-green-24);
+  --success-lighter: var(--color-alpha-green-16);
+
+  /* Away Colors */
+  --away-dark: var(--color-yellow-400);
+  --away-base: var(--color-yellow-600);
+  --away-light: var(--color-alpha-yellow-24);
+  --away-lighter: var(--color-alpha-yellow-16);
+
+  /* Brand/Feature Colors */
+  --brand-tbd-dark: var(--color-purple-400);
+  --brand-tbd-base: var(--color-purple-500);
+  --brand-button-primary-text: var(--color-neutral-00);
+  --brand-tbd-light: var(--color-alpha-purple-24);
+  --brand-tbd-lighter: var(--color-alpha-purple-16);
+  --feature-dark: var(--color-purple-400);
+  --feature-base: var(--color-purple-500);
+  --feature-light: var(--color-alpha-purple-24);
+  --feature-lighter: var(--color-alpha-purple-16);
+
+  /* Verified Colors */
+  --verified-dark: var(--color-sky-400);
+  --verified-base: var(--color-sky-600);
+  --verified-light: var(--color-alpha-sky-24);
+  --verified-lighter: var(--color-alpha-sky-24);
+
+  /* Highlighted Colors */
+  --highlighted-dark: var(--color-pink-400);
+  --highlighted-base: var(--color-pink-600);
+  --highlighted-light: var(--color-alpha-pink-24);
+  --highlighted-lighter: var(--color-alpha-pink-16);
+
+  /* Stable Colors */
+  --stable-dark: var(--color-teal-400);
+  --stable-base: var(--color-teal-600);
+  --stable-light: var(--color-alpha-teal-24);
+  --stable-lighter: var(--color-alpha-teal-16);
+}
